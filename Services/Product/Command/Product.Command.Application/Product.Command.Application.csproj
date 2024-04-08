@@ -12,10 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Command\" />
-    <Folder Include="Handlers\" />
     <Folder Include="Common\" />
-    <Folder Include="Interfaces\RepositoryInterfaces\" />
   </ItemGroup>
 
   <ItemGroup>

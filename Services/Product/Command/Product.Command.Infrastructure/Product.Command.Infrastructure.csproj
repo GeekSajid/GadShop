@@ -10,4 +10,9 @@
     <ProjectReference Include="..\Product.Command.Application\Product.Command.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Persistence\Context\" />
+    <Folder Include="Persistence\Repositories\" />
+  </ItemGroup>
+
 </Project>
