@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Product.Query.API": {
+    "Query.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

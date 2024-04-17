@@ -11,27 +11,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{DB32
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product.Command", "Product.Command", "{1461AF5C-34C2-49F8-BE5B-113F8A82B981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Command.Domain", "Services\Product\Command\Product.Command.Domain\Product.Command.Domain.csproj", "{CB270756-880D-4B06-9EB9-C61C95D3B76A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.Domain", "Services\Product\Command\Product.Command.Domain\Command.Domain.csproj", "{CB270756-880D-4B06-9EB9-C61C95D3B76A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Command.Application", "Services\Product\Command\Product.Command.Application\Product.Command.Application.csproj", "{BABEB0B0-151A-45BB-8709-8B0CAA245A90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.Application", "Services\Product\Command\Product.Command.Application\Command.Application.csproj", "{BABEB0B0-151A-45BB-8709-8B0CAA245A90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Command.Infrastructure", "Services\Product\Command\Product.Command.Infrastructure\Product.Command.Infrastructure.csproj", "{F5131B13-9A6D-42B0-B4B6-C9F75C29C921}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.Infrastructure", "Services\Product\Command\Product.Command.Infrastructure\Command.Infrastructure.csproj", "{F5131B13-9A6D-42B0-B4B6-C9F75C29C921}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Command.API", "Services\Product\Command\Product.Command.API\Product.Command.API.csproj", "{C3ABCCFC-8EEA-4155-8A5E-50079E638488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.API", "Services\Product\Command\Product.Command.API\Command.API.csproj", "{C3ABCCFC-8EEA-4155-8A5E-50079E638488}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product.Query", "Product.Query", "{063FC9AA-8D8F-4F96-956D-3511779DE162}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Query.Infrastructure", "Services\Product\Query\Product.Query.Infrastructure\Product.Query.Infrastructure.csproj", "{D09654ED-FC1B-419F-AB7C-902C258D6389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query.Infrastructure", "Services\Product\Query\Product.Query.Infrastructure\Query.Infrastructure.csproj", "{D09654ED-FC1B-419F-AB7C-902C258D6389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Query.Domain", "Services\Product\Query\Product.Query.Domain\Product.Query.Domain.csproj", "{598998A2-210C-4758-AF01-7940F9C62521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query.Domain", "Services\Product\Query\Product.Query.Domain\Query.Domain.csproj", "{598998A2-210C-4758-AF01-7940F9C62521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Query.Application", "Services\Product\Query\Product.Query.Application\Product.Query.Application.csproj", "{FCCA8E89-A232-410A-810C-C1784FABF8D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query.Application", "Services\Product\Query\Product.Query.Application\Query.Application.csproj", "{FCCA8E89-A232-410A-810C-C1784FABF8D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Query.API", "Services\Product\Query\Product.Query.API\Product.Query.API.csproj", "{0E08EA8E-4C63-4ED9-BAEC-1B6C228C3608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query.API", "Services\Product\Query\Product.Query.API\Query.API.csproj", "{0E08EA8E-4C63-4ED9-BAEC-1B6C228C3608}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{76330456-7272-4BAE-951B-ED42DD61F919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOs", "DTOs\DTOs.csproj", "{9FA8E074-9156-4348-9501-C58F00908E0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOs", "DTOs\DTOs.csproj", "{9FA8E074-9156-4348-9501-C58F00908E0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
